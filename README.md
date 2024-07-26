@@ -38,7 +38,6 @@ This Flask application processes receipts and calculates points based on specifi
 
 3. **Verify Installation:**
    - Open Command Prompt and run:
-   - 
      ```bash
      python --version
      ```
@@ -47,7 +46,6 @@ This Flask application processes receipts and calculates points based on specifi
 #### Linux
 1. **Install Python 3.9.12:**
    - Open Terminal and run the following commands:
-   - 
      ```bash
      sudo apt update
      sudo apt install software-properties-common
@@ -61,7 +59,7 @@ This Flask application processes receipts and calculates points based on specifi
      ```bash
      python3.9 --version
      ```
-   - You should see `Python 3.9.12`.
+   - You should see `Python 3.9.12`
 
 
 ## Installation
