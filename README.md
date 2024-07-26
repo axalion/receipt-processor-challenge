@@ -99,7 +99,7 @@ python -m venv myapp
 
 2. **Activate the virtual environment:**
 ```bash
-source myapp/bin/activate
+myapp\Scripts\Activate
 ```
 
 3. **If you encounter a policy error when trying to activate the virtual environment, you need to change the execution policy for PowerShell scripts:**
