@@ -13,11 +13,11 @@ This Flask application processes receipts and calculates points based on specifi
 
 #### Mac
 1. **Download Python 3.9.12:**
-   - Go to the [Python Releases for macOS](https://www.python.org/downloads/macos/) page.
-   - Download the Python 3.9.12 installer (`python-3.9.12-macosx10.9.pkg`).
+   - Go to the [Python Releases for macOS](https://www.python.org/downloads/macos/) page
+   - Download the Python 3.9.12 installer (`python-3.9.12-macosx10.9.pkg`)
 
 2. **Install Python:**
-   - Open the downloaded `.pkg` file and follow the instructions to install Python.
+   - Open the downloaded `.pkg` file and follow the instructions to install Python
 
 3. **Verify Installation:**
    - Open Terminal and run:
@@ -28,13 +28,13 @@ This Flask application processes receipts and calculates points based on specifi
 
 #### Windows
 1. **Download Python 3.9.12:**
-   - Go to the [Python Releases for Windows](https://www.python.org/downloads/windows/) page.
-   - Download the Python 3.9.12 installer (`python-3.9.12-amd64.exe` for 64-bit or `python-3.9.12.exe` for 32-bit).
+   - Go to the [Python Releases for Windows](https://www.python.org/downloads/windows/) page
+   - Download the Python 3.9.12 installer (`python-3.9.12-amd64.exe` for 64-bit or `python-3.9.12.exe` for 32-bit)
 
 2. **Install Python:**
-   - Run the downloaded `.exe` file.
-   - Ensure you check the box that says "Add Python to PATH".
-   - Follow the instructions to complete the installation.
+   - Run the downloaded `.exe` file
+   - Ensure you check the box that says "Add Python to PATH"
+   - Follow the instructions to complete the installation
 
 3. **Verify Installation:**
    - Open Command Prompt and run:
@@ -67,7 +67,7 @@ This Flask application processes receipts and calculates points based on specifi
 ## Installation
 
 ### Clone the Repository
-Clone the project repository to your local machine. The `<repository_directory>` refers to the directory created when you clone the repository, which will have the same name as the repository (in this case, `receipt-processor-challenge`).
+Clone the project repository to your local machine. The `<repository_directory>` refers to the directory created when you clone the repository, which will have the same name as the repository (in this case, `receipt-processor-challenge`)
 
 ```bash
 # Clone the repository from GitHub
@@ -78,7 +78,7 @@ cd receipt-processor-challenge
 ```
 
 ### Set Up Virtual Environment
-It's a good practice to use a virtual environment to manage dependencies.
+It's a good practice to use a virtual environment to manage dependencies
 
 ### Max and Linux
 
@@ -105,7 +105,7 @@ source myapp/bin/activate
 ```
 
 3. **If you encounter a policy error when trying to activate the virtual environment, you need to change the execution policy for PowerShell scripts:**
-   - Open PowerShell as Administrator: Right-click on the Start menu, select "Windows PowerShell (Admin)" or "Windows Terminal (Admin)".
+   - Open PowerShell as Administrator: Right-click on the Start menu, select "Windows PowerShell (Admin)" or "Windows Terminal (Admin)"
    - Check the current execution policy:
      ```bash
       Get-ExecutionPolicy
@@ -125,7 +125,7 @@ source myapp/bin/activate
 
 ### Install Dependencies
 
-Install the required dependencies using the requirements.txt file.
+Install the required dependencies using the requirements.txt file
 
 ```bash
 pip install -r requirements.txt
@@ -134,7 +134,7 @@ pip install -r requirements.txt
 
 ### Run the Flask Application
 
-With all dependencies installed, run the Flask server.
+With all dependencies installed, run the Flask server
 
 ```bash
 python app.py
