@@ -24,7 +24,7 @@ This Flask application processes receipts and calculates points based on specifi
      ```bash
      python3 --version
      ```
-   - You should see `Python 3.9.12`.
+   - You should see `Python 3.9.12`
 
 #### Windows
 1. **Download Python 3.9.12:**
