@@ -78,7 +78,7 @@ cd receipt-processor-challenge
 ### Set Up Virtual Environment
 It's a good practice to use a virtual environment to manage dependencies
 
-### Max and Linux
+### Mac and Linux
 
 1. **Create a virtual environment:**
 ```bash
