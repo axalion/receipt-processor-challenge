@@ -4,7 +4,7 @@ This Flask application processes receipts and calculates points based on specifi
 
 ## Prerequisites
 - Python 3.9.12
-- requirements.txt
+- [requirements.txt](https://github.com/axalion/receipt-processor-challenge/blob/master/requirements.txt)
 
 
 ## Installation
@@ -125,7 +125,7 @@ source myapp/bin/activate
 
 ### Install Dependencies
 
-Install the required dependencies using the requirements.txt file
+Install the required dependencies using the [requirements.txt](https://github.com/axalion/receipt-processor-challenge/blob/master/requirements.txt) file
 
 ```bash
 pip install -r requirements.txt
