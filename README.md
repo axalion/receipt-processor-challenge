@@ -38,6 +38,7 @@ This Flask application processes receipts and calculates points based on specifi
 
 3. **Verify Installation:**
    - Open Command Prompt and run:
+   - 
      ```bash
      python --version
      ```
@@ -46,6 +47,7 @@ This Flask application processes receipts and calculates points based on specifi
 #### Linux
 1. **Install Python 3.9.12:**
    - Open Terminal and run the following commands:
+   - 
      ```bash
      sudo apt update
      sudo apt install software-properties-common
@@ -65,11 +67,14 @@ This Flask application processes receipts and calculates points based on specifi
 ## Installation
 
 ### Clone the Repository
-Clone the project repository to your local machine.
+Clone the project repository to your local machine. The `<repository_directory>` refers to the directory created when you clone the repository, which will have the same name as the repository (in this case, `receipt-processor-challenge`).
 
 ```bash
-gh repo clone axalion/receipt-processor-challenge
-cd <repository_directory>
+# Clone the repository from GitHub
+git clone https://github.com/axalion/receipt-processor-challenge.git
+
+# Navigate into the repository directory
+cd receipt-processor-challenge
 ```
 
 ### Set Up Virtual Environment
@@ -77,27 +82,46 @@ It's a good practice to use a virtual environment to manage dependencies.
 
 ### Max and Linux
 
-1. Create a virtual environment:
+1. **Create a virtual environment:**
 ```bash
 python3 -m venv myapp
 ```
 
-2. Activate the virtual environment:
+2. **Activate the virtual environment:**
 ```bash
 source myapp/bin/activate
 ```
 
 
 ### Windows
-1. Create a virtual environment:
+1. **Create a virtual environment:**
 ```bash
 python -m venv myapp
 ```
 
-2. Activate the virtual environment:
+2. **Activate the virtual environment:**
 ```bash
 source myapp/bin/activate
 ```
+
+3. **If you encounter a policy error when trying to activate the virtual environment, you need to change the execution policy for PowerShell scripts:**
+   - Open PowerShell as Administrator: Right-click on the Start menu, select "Windows PowerShell (Admin)" or "Windows Terminal (Admin)".
+   - Check the current execution policy:
+     ```bash
+      Get-ExecutionPolicy
+      ```
+   - Set the execution policy to allow script execution:
+       ```bash
+      Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+      ```
+   - Activate the virtual environment:
+      ```bash
+      myapp\Scripts\Activate
+      ```
+
+
+
+
 
 ### Install Dependencies
 
